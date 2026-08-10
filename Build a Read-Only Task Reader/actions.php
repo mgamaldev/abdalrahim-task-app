@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-require_once __DIR__ . '/tasks.php';
-
 function listAll(array $tasks): array
 {
     return $tasks;
