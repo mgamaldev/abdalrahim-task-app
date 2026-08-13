@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 require_once __DIR__ . '/Task.php';
-$tasks = require_once __DIR__ . '/tasks.php';
+require_once __DIR__ . '/tasks.php';
 
 $doneTasks = 0;
 
